@@ -1,0 +1,1 @@
+A program for consolidating .JSON files from Teltta's markgroup program (https://github.com/Teltta/hackerpolice-stuff/blob/main/markgroup/compiled/markgroup.exe) for ease of use or for uploading to Shadefall.
