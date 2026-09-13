@@ -729,7 +729,7 @@
   const mergeLabelEgg = document.getElementById('mergeLabelEgg');
   if (mergeLabelEgg) {
     mergeLabelEgg.addEventListener('click', () => {
-      window.open('https://www.youtube.com/watch?v=VvVThrMhnuE', '_blank', 'noopener,noreferrer');
+      window.open('http://youtu.be/VvVThrMhnuE&t=16', '_blank', 'noopener,noreferrer');
     });
   }
 
@@ -838,7 +838,7 @@
 
     sources.push({
       id: nextId++, name, ok: true, entries: validPlayers.length, data: json,
-      noChanges: true, suspicious: true, extraAttrs: [], customValues: [], showSuspiciousInfo: false, archivedGroups
+      noChanges: true, suspicious: false, extraAttrs: [], customValues: [], showSuspiciousInfo: false, archivedGroups
     });
     log('LOADED ' + name + ' :: ' + validPlayers.length + ' SteamIDs');
   }
@@ -870,10 +870,10 @@
         ? '<div class="attr-cell">' +
           '<div class="attr-group">' +
           '<div class="attr-group-label">PRESET</div>' +
-          (s.suspicious
+          (s.noChanges
             ? '<span class="warn-symbol" data-id="' + s.id + '" title="What does this mean?">⚠</span>' +
               (s.showSuspiciousInfo
-                ? '<div class="custom-warning">⚠ Deselecting Suspicious drops that mark if another is selected — keep Suspicious selected to retain it.</div>'
+                ? '<div class="custom-warning">⚠ By default, Teltta\'s markgroup marks users as "suspicious".</div>'
                 : '')
             : '') +
           '<div class="attr-toggles">' +
