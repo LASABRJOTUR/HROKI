@@ -55,6 +55,7 @@ The resulting `.json` file will be saved to your **Downloads** folder.
 ### TF2BD
 
 1. Add the exported `.json` file to your TF2BD config file. This should be in `TF2BD > cfg`.
+> **Note:** Marks besides "Suspicious" and "Cheater" are unlikely to work in TF2BD.
 
 ### Shadefall
 
