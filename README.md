@@ -10,7 +10,11 @@ https://github.com/Teltta/hackerpolice-stuff/blob/main/markgroup/compiled/markgr
 
 ## How to Use
 
-### 1. Prepare Your JSON Files
+### 1. Download the HROKI HTML file
+
+As HROKI is a simple program, it can easily be ran as an HTML file with no further requirements. 
+
+### 2. Prepare Your JSON Files
 
 Gather the `.json` files you want to consolidate. These can include:
 
@@ -20,11 +24,11 @@ Gather the `.json` files you want to consolidate. These can include:
 
 All files must use the **TF2BD playerlist schema**.
 
-### 2. Load Your Files
+### 3. Load Your Files
 
 In HROKI, click **Select Files** and add all of the `.json` files you want to merge.
 
-### 3. Add Marks
+### 4. Add Marks
 
 Assign the desired attributes to each loaded file.
 
@@ -32,7 +36,7 @@ HROKI supports both **preset marks** and **custom marks**.
 
 > **Note:** Custom marks are case- and spelling-sensitive. For example, `Cheater` and `cheater` will be treated as two separate marks.
 
-### 4. Merge the Files
+### 5. Merge the Files
 
 Rename the output as desired, then click **Merge Loaded Files**.
 
@@ -40,7 +44,7 @@ Check the console log for repeated SteamIDs. HROKI will show you each list that 
 
 This also gives you an opportunity to catch mistakes before exporting the final playerlist.
 
-### 5. Export the Playerlist
+### 6. Export the Playerlist
 
 Click **Export Output**.
 
