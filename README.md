@@ -50,8 +50,7 @@ The resulting `.json` file will be saved to your **Downloads** folder.
 
 ### TF2BD
 
-1. Add the exported `.json` file to your TF2BD configuration.
-2. Place the file in your TF2BD `cfg` folder.
+1. Add the exported `.json` file to your TF2BD config file. This should be in `TF2BD > cfg`.
 
 ### Shadefall
 
