@@ -40,7 +40,7 @@ HROKI supports both **preset marks** and **custom marks**.
 
 Rename the output as desired, then click **Merge Loaded Files**.
 
-Check the console log for repeated SteamIDs. HROKI will show you each list that they are in and what marks they will receive.
+Check the console log for repeated SteamIDs. HROKI will show you each list that they are in and what marks they will receive. SteamIDs lead to [steamhistory.net](https://steamhistory.net/) when clicked. 
 
 This also gives you an opportunity to catch mistakes before exporting the final playerlist.
 
@@ -64,3 +64,4 @@ The resulting `.json` file will be saved to your **Downloads** folder.
 3. Copy the URL from the address bar. It should begin with `raw.githubusercontent.com`.
 4. In Shadefall, go to **Settings** and scroll down to **COMMUNITY PLAYERLISTS**.
 5. Paste the raw GitHub URL into Shadefall.
+6. Assign your Shadefall marks to the .json marks. 
