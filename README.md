@@ -65,3 +65,25 @@ The resulting `.json` file will be saved to your **Downloads** folder.
 4. In Shadefall, go to **Settings** and scroll down to **COMMUNITY PLAYERLISTS**.
 5. Paste the raw GitHub URL into Shadefall.
 6. Assign your Shadefall marks to the .json marks. 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Breakdown of default marks
+
+## Suspicious
+Users associated with cheating groups. 
+
+## Cheater
+Confirmed cheaters. This will likely be the smallest number of people, as cheating needs confirmation and not through group associations.
+
+## POI, or People of Interest
+Users associated with illegal behaviors, such as pedophilia or zoophilia. Many people listed under this are typically in groups associated with loli, zoophilia, or cubs (furry CP). 
+
+## Degen 
+Users associated with lewd groups.
+
+## Furry
+Users associated with furry groups. Users associated with Brony culture are also marked as furry.
+
+## Toxic
+Users associated with toxic groups, such as harassment groups. 
